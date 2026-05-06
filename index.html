@@ -1,0 +1,1859 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<title>IMS Wellth Care × WellX — Commercial Proposal 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400&amp;family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<script src="deck-stage.js"></script>
+<style>
+  :root {
+    --slate: #3D4E5E;
+    --slate-deep: #2C3A47;
+    --slate-soft: #5A6B7A;
+    --coral: #E15D4A;
+    --orange: #E89846;
+    --gold: #F2C57C;
+    --cream: #F7F1E6;
+    --paper: #FBF7EE;
+    --paper-2: #F2EBDB;
+    --ink: #1F2A33;
+    --muted: #6F7C87;
+    --rule: #D8CDB8;
+    --rule-soft: #E6DCC8;
+    --gray: #C7C8CA;
+    --serif: 'Fraunces', 'Times New Roman', serif;
+    --sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #1a1a1a; font-family: var(--sans); color: var(--ink); }
+
+  deck-stage { background: #14181c; }
+
+  section.slide {
+    width: 1920px;
+    height: 1080px;
+    background: var(--paper);
+    position: relative;
+    overflow: hidden;
+    color: var(--ink);
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  /* ================ Common chrome ================ */
+  .chrome-top {
+    position: absolute; top: 56px; left: 80px; right: 80px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: var(--mono); font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--slate-soft);
+  }
+  .chrome-top .brand {
+    display: flex; align-items: center; gap: 28px;
+    height: 108px;
+  }
+  .chrome-top .brand img.iwc { height: 108px; width: auto; }
+  .chrome-top .brand img.wellx-mark {
+    height: 216px; width: auto;
+    margin-top: -54px; margin-bottom: -54px;
+    margin-left: -28px;
+  }
+  .chrome-top .brand .x { font-family: 'Archivo', 'Inter', sans-serif; font-style: normal; font-weight: 300; color: #0b1216; font-size: 64px; letter-spacing: -0.04em; text-transform: uppercase; line-height: 1; }
+
+  .chrome-bottom {
+    position: absolute; bottom: 48px; left: 80px; right: 80px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .chrome-bottom .rule {
+    flex: 1; height: 1px; background: var(--rule); margin: 0 24px;
+  }
+
+  .page-num { font-variant-numeric: tabular-nums; }
+
+  /* shared text */
+  .eyebrow {
+    font-family: var(--mono); font-size: 18px; letter-spacing: 0.25em;
+    text-transform: uppercase; color: var(--coral); font-weight: 500;
+  }
+  h1, h2, h3, h4 { margin: 0; font-weight: 400; }
+  .display {
+    font-family: var(--serif); font-weight: 300; letter-spacing: -0.02em;
+    line-height: 0.96;
+  }
+  .h-section {
+    font-family: var(--serif); font-weight: 400; font-size: 96px; letter-spacing: -0.025em;
+    line-height: 1.0; color: var(--slate-deep);
+  }
+  .h-slide {
+    font-family: var(--serif); font-weight: 400; font-size: 76px; letter-spacing: -0.02em;
+    line-height: 1.02; color: var(--slate-deep);
+  }
+  .h-card {
+    font-family: var(--serif); font-weight: 500; font-size: 36px; letter-spacing: -0.015em;
+    line-height: 1.1; color: var(--slate-deep);
+  }
+  .body-lg { font-size: 26px; line-height: 1.55; color: var(--ink); font-weight: 400; }
+  .body { font-size: 22px; line-height: 1.55; color: #2d3942; }
+  .body-sm { font-size: 18px; line-height: 1.55; color: var(--muted); }
+
+  /* dotted underline accents */
+  .accent-line {
+    display: inline-block; height: 4px; width: 64px; background: var(--coral);
+    border-radius: 2px;
+  }
+
+  /* =============== SLIDE 1 — COVER =============== */
+  .cover { background: var(--paper); }
+  .cover .bg-shape {
+    position: absolute; right: -240px; top: -240px;
+    width: 1200px; height: 1200px;
+    background:
+      linear-gradient(135deg, rgba(225,93,74,0.55) 0%, rgba(232,152,70,0.35) 45%, rgba(242,197,124,0.25) 100%),
+      radial-gradient(circle at 35% 35%, var(--gold) 0%, var(--orange) 35%, var(--coral) 75%, transparent 76%);
+    opacity: 0.95; filter: blur(0.5px);
+    border-radius: 50%;
+  }
+  .cover .bg-photo {
+    position: absolute; right: -240px; top: -240px;
+    width: 1200px; height: 1200px;
+    border-radius: 50%;
+    background-image: url('assets/cover-runners.png');
+    background-size: cover;
+    background-position: center 35%;
+    mix-blend-mode: multiply;
+    opacity: 0.85;
+    -webkit-mask-image: radial-gradient(circle at 35% 35%, #000 0%, #000 60%, transparent 75%);
+            mask-image: radial-gradient(circle at 35% 35%, #000 0%, #000 60%, transparent 75%);
+    filter: contrast(1.05) saturate(0.85);
+  }
+  .cover .bg-photo::after {
+    content: ''; position: absolute; inset: 0; border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, transparent 35%, rgba(225,93,74,0.45) 70%, rgba(225,93,74,0.6) 76%);
+    mix-blend-mode: normal; pointer-events: none;
+  }
+  .cover .bg-slate {
+    position: absolute; left: -300px; bottom: -300px;
+    width: 900px; height: 900px; border-radius: 50%;
+    background: radial-gradient(circle, var(--slate) 0%, var(--slate-deep) 60%, transparent 65%);
+    opacity: 0.18;
+  }
+  .cover-grid {
+    position: relative; z-index: 1;
+    width: 100%; height: 100%;
+    padding: 64px 80px;
+    display: grid; grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+  }
+  .cover .top-row {
+    display: flex; align-items: flex-start; justify-content: space-between;
+  }
+  .cover .top-row img.logo { height: 200px; }
+  .cover .doc-meta { text-align: right; font-family: var(--mono); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--slate); line-height: 1.8; }
+  .cover .doc-meta strong { color: var(--coral); font-weight: 600; }
+
+  .cover .center-block {
+    display: flex; flex-direction: column; justify-content: center;
+    max-width: 1500px;
+  }
+  .cover .center-block .eyebrow {
+    margin-bottom: 24px; font-size: 14px;
+  }
+  .cover h1.cover-title {
+    font-family: var(--serif); font-weight: 300;
+    font-size: 156px; line-height: 0.94; letter-spacing: -0.035em;
+    color: var(--slate-deep);
+    margin: 0;
+  }
+  .cover h1.cover-title em {
+    font-style: italic; font-weight: 400;
+    color: var(--coral);
+  }
+  .cover .subhead {
+    margin-top: 40px;
+    font-family: var(--serif); font-style: italic; font-weight: 300;
+    font-size: 32px; color: var(--slate); line-height: 1.4;
+    max-width: 1100px;
+  }
+
+  .cover .bottom-row {
+    display: flex; justify-content: space-between; align-items: flex-end;
+  }
+  .cover .built-by {
+    font-family: var(--mono); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--slate);
+  }
+  .cover .built-by .by { color: var(--muted); }
+  .cover .signature-card {
+    background: var(--slate-deep); color: #fff; padding: 28px 36px;
+    border-radius: 4px; min-width: 460px;
+  }
+  .cover .signature-card .label { font-family: var(--mono); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+  .cover .signature-card .name { font-family: var(--serif); font-size: 32px; line-height: 1.1; }
+  .cover .signature-card .role { font-size: 16px; color: rgba(255,255,255,0.7); margin-top: 6px; }
+  .cover .signature-card .org { font-size: 16px; color: rgba(255,255,255,0.9); margin-top: 4px; font-weight: 500; }
+
+  /* =============== SLIDE 2 — EXEC SUMMARY =============== */
+  .two-col {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-columns: 540px 1fr; gap: 100px;
+  }
+  .col-label .eyebrow { display: block; margin-bottom: 24px; }
+  .col-label .h-slide { margin-bottom: 32px; }
+  .col-label .accent-line { margin-bottom: 32px; }
+  .col-label .meta-block {
+    margin-top: 56px;
+    border-top: 1px solid var(--rule);
+    padding-top: 32px;
+    font-family: var(--mono); font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--slate-soft); line-height: 2;
+  }
+  .col-label .meta-block strong { color: var(--slate-deep); font-weight: 600; }
+
+  .priority-list {
+    display: grid; gap: 28px;
+  }
+  .priority-list .item {
+    display: grid; grid-template-columns: 80px 1fr; gap: 28px;
+    padding: 28px 0; border-top: 1px solid var(--rule);
+  }
+  .priority-list .item:last-child { border-bottom: 1px solid var(--rule); }
+  .priority-list .num {
+    font-family: var(--serif); font-size: 56px; color: var(--coral); line-height: 1; font-weight: 300;
+  }
+  .priority-list .item h3 { font-family: var(--serif); font-size: 30px; color: var(--slate-deep); font-weight: 500; margin-bottom: 10px; letter-spacing: -0.01em; }
+  .priority-list .item p { font-size: 21px; line-height: 1.5; margin: 0; color: #3a4753; }
+
+  /* =============== SLIDE 3 — DEAL HIGHLIGHTS =============== */
+  .deal-grid {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-rows: auto 1fr; gap: 64px;
+  }
+  .deal-grid .head { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: end; }
+  .deal-grid .head .lede { font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 30px; line-height: 1.4; color: var(--slate); max-width: 700px; }
+
+  .deal-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .deal-card {
+    background: #fff; border: 1px solid var(--rule-soft);
+    padding: 40px 36px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    min-height: 480px;
+    position: relative;
+    border-radius: 2px;
+  }
+  .deal-card .num { font-family: var(--mono); font-size: 12px; color: var(--coral); letter-spacing: 0.2em; }
+  .deal-card .title { font-family: var(--serif); font-size: 38px; line-height: 1.05; color: var(--slate-deep); font-weight: 500; letter-spacing: -0.015em; }
+  .deal-card .blurb { font-size: 18px; color: var(--slate-soft); line-height: 1.55; }
+  .deal-card .swatch {
+    position: absolute; top: 0; left: 0; right: 0; height: 8px;
+  }
+  .deal-card.c1 .swatch { background: var(--coral); }
+  .deal-card.c2 .swatch { background: var(--orange); }
+  .deal-card.c3 .swatch { background: var(--gold); }
+  .deal-card.c4 .swatch { background: var(--slate); }
+
+  /* =============== SLIDE 4 — ABOUT WELLX =============== */
+  .about-grid {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+  }
+  .about-left .h-slide { margin: 24px 0 36px; }
+  .about-left p { font-size: 23px; line-height: 1.6; color: #3a4753; margin: 0 0 24px; max-width: 720px; }
+  .recognition {
+    margin-top: 40px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px 32px;
+    border-top: 1px solid var(--rule); padding-top: 28px;
+  }
+  .recognition .item { font-size: 18px; color: var(--slate-deep); }
+  .recognition .item .l { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--coral); display: block; margin-bottom: 4px; }
+
+  .scale-card {
+    background: var(--slate-deep); color: #fff;
+    padding: 56px; border-radius: 4px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .scale-card .eyebrow { color: var(--gold); }
+  .scale-card h3 { font-family: var(--serif); font-size: 48px; font-weight: 400; margin: 16px 0 40px; line-height: 1.05; }
+  .scale-rows { display: grid; gap: 28px; }
+  .scale-row { display: grid; grid-template-columns: 200px 1fr; gap: 32px; align-items: baseline; padding-bottom: 28px; border-bottom: 1px solid rgba(255,255,255,0.12); }
+  .scale-row:last-child { border-bottom: none; }
+  .scale-row .yr { font-family: var(--mono); font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
+  .scale-row .yr small { display: block; color: rgba(242,197,124,0.65); margin-top: 4px; font-size: 11px; }
+  .scale-row .stats { display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 22px; color: #fff; }
+  .scale-row .stats .big { font-family: var(--serif); font-size: 36px; font-weight: 500; color: var(--gold); margin-right: 6px; letter-spacing: -0.02em; }
+
+  .case-strip {
+    position: absolute; bottom: 130px; left: 80px; right: 80px;
+    /* not used in this layout — keep */
+    display: none;
+  }
+
+  /* =============== SLIDE 5 — REGIONAL CASE STUDY =============== */
+  .case-grid {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-rows: auto 1fr; gap: 64px;
+  }
+  .case-grid .head { display: grid; grid-template-columns: 540px 1fr; gap: 80px; align-items: end; }
+  .case-grid .head .lede { font-size: 24px; line-height: 1.55; color: #3a4753; max-width: 760px; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .stat-card {
+    background: #fff; border: 1px solid var(--rule-soft);
+    padding: 56px 48px; min-height: 420px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    position: relative; border-radius: 2px;
+  }
+  .stat-card .pct {
+    font-family: var(--serif); font-weight: 300; font-size: 200px; line-height: 0.9; letter-spacing: -0.04em;
+    color: var(--slate-deep);
+  }
+  .stat-card.s1 .pct em { color: var(--coral); font-style: normal; }
+  .stat-card.s2 .pct em { color: var(--orange); font-style: normal; }
+  .stat-card.s3 .pct em { color: var(--slate); font-style: normal; }
+  .stat-card .label { font-family: var(--serif); font-size: 30px; color: var(--slate-deep); margin-top: 24px; font-weight: 500; line-height: 1.15; }
+  .stat-card .desc { font-size: 17px; color: var(--muted); margin-top: 12px; line-height: 1.5; }
+  .stat-card .tag { font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--coral); }
+
+  /* =============== SLIDE 6 — WHAT WE'LL BUILD =============== */
+  .build-intro {
+    position: absolute; top: 180px; left: 80px; right: 80px;
+    display: grid; grid-template-columns: 540px 1fr; gap: 80px; align-items: end;
+  }
+  .build-intro .lede { font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 30px; line-height: 1.4; color: var(--slate); max-width: 760px; }
+
+  /* Embedded MacBook dashboard */
+  .build-stage {
+    position: absolute; top: 400px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-columns: 1.55fr 1fr; gap: 56px; align-items: center;
+  }
+  .mb-frame {
+    position: relative; width: 100%;
+  }
+  .mb-screen {
+    position: relative;
+    background: #15191e;
+    border-radius: 18px 18px 4px 4px;
+    padding: 16px 10px 10px;
+    box-shadow:
+      0 0 0 1.5px #2a2e34,
+      0 24px 48px -16px rgba(0,0,0,0.32),
+      0 48px 96px -24px rgba(0,0,0,0.22);
+  }
+  .mb-screen::before {
+    content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 100px; height: 14px;
+    background: #15191e; border-radius: 0 0 9px 9px;
+  }
+  .mb-screen::after {
+    content: ''; position: absolute; top: 5px; left: 50%; transform: translateX(-50%);
+    width: 5px; height: 5px; border-radius: 50%; background: #0a0c0f;
+    box-shadow: inset 0 0 0 1px #1d2126;
+  }
+  .mb-display {
+    position: relative; background: #fff;
+    border-radius: 3px; overflow: hidden;
+    aspect-ratio: 16 / 10; width: 100%;
+  }
+  .mb-base {
+    height: 14px;
+    background: linear-gradient(#cbcdd1, #9ea2a8 55%, #7a7e84);
+    border-radius: 0 0 22px 22px;
+    width: calc(100% + 80px);
+    margin: 0 -40px;
+    box-shadow: inset 0 -2px 4px rgba(0,0,0,0.25);
+    position: relative;
+  }
+  .mb-base::before {
+    content: ''; position: absolute; left: 50%; top: 0; transform: translateX(-50%);
+    width: 110px; height: 5px; background: #6a6e74;
+    border-radius: 0 0 11px 11px;
+  }
+
+  /* Dashboard innards */
+  .dash-topbar {
+    height: 22px; background: #f4ede0; border-bottom: 1px solid var(--rule);
+    display: flex; align-items: center; padding: 0 8px; gap: 6px;
+    font-family: var(--mono); font-size: 7px;
+  }
+  .dash-topbar .dots { display: flex; gap: 4px; }
+  .dash-topbar .dots span { width: 7px; height: 7px; border-radius: 50%; background: #ddd5c1; }
+  .dash-topbar .dots span:nth-child(1) { background: #E15D4A; }
+  .dash-topbar .dots span:nth-child(2) { background: #E89846; }
+  .dash-topbar .dots span:nth-child(3) { background: #6FA86B; }
+  .dash-topbar .url {
+    flex: 1; background: #fff; border: 1px solid var(--rule); border-radius: 4px;
+    padding: 3px 8px; color: var(--slate); font-size: 8px; font-family: var(--sans);
+  }
+  .dash-topbar .url b { color: var(--slate-deep); font-weight: 600; }
+
+  .dash-app { display: grid; grid-template-columns: 110px 1fr; height: calc(100% - 22px); }
+  .dash-side {
+    background: linear-gradient(180deg, #fffaef, #f7efdc);
+    border-right: 1px solid var(--rule); padding: 10px 8px;
+    display: flex; flex-direction: column; gap: 1px;
+  }
+  .dash-side .brand {
+    display: flex; align-items: center; gap: 5px;
+    padding: 0 3px 8px; border-bottom: 1px solid var(--rule); margin-bottom: 6px;
+  }
+  .dash-side .brand img { height: 16px; }
+  .dash-side .brand .org { font-family: var(--serif); font-size: 7px; color: var(--slate-deep); font-weight: 500; line-height: 1.1; }
+  .dash-side .brand .org small { display: block; font-family: var(--mono); font-size: 5px; color: var(--slate-soft); letter-spacing: 0.14em; text-transform: uppercase; margin-top: 1px; }
+  .dash-side .group-label {
+    font-family: var(--mono); font-size: 5px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--slate-soft); padding: 0 4px 3px; font-weight: 500;
+  }
+  .dash-nav { display: flex; flex-direction: column; gap: 1px; }
+  .dash-nav .item {
+    display: flex; align-items: center; gap: 5px;
+    padding: 4px 5px; border-radius: 3px;
+    font-size: 7px; color: var(--slate-deep); font-weight: 500;
+  }
+  .dash-nav .item .ic { width: 8px; height: 8px; color: var(--slate-soft); }
+  .dash-nav .item.active { background: var(--slate-deep); color: #fff; }
+  .dash-nav .item.active .ic { color: var(--gold); }
+
+  .dash-main { padding: 10px 12px; overflow: hidden; }
+  .dash-main .head {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    padding-bottom: 7px; border-bottom: 1px solid var(--rule); margin-bottom: 9px;
+  }
+  .dash-main h1 { margin: 0; font-family: var(--serif); font-weight: 400; font-size: 14px; color: var(--slate-deep); letter-spacing: -0.01em; }
+  .dash-main .crumb { font-family: var(--mono); font-size: 5px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--coral); font-weight: 500; margin-bottom: 2px; }
+  .dash-main .user { display: flex; align-items: center; gap: 5px; }
+  .dash-main .user .who { text-align: right; line-height: 1.2; }
+  .dash-main .user .n { font-family: var(--serif); font-size: 6px; color: var(--slate-deep); font-weight: 500; }
+  .dash-main .user .e { font-family: var(--mono); font-size: 5px; color: var(--slate-soft); }
+  .dash-main .user .ava {
+    width: 16px; height: 16px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--orange), var(--coral));
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-family: var(--serif); font-size: 7px; font-weight: 500;
+  }
+  .dash-main .filters { display: flex; gap: 4px; margin-bottom: 8px; }
+  .dash-main .pill {
+    padding: 3px 8px; background: #fff; border: 1px solid var(--rule); border-radius: 999px;
+    font-size: 6px; color: var(--slate-deep); font-weight: 500;
+  }
+  .dash-main .pill.act { background: transparent; border-color: var(--slate-deep); }
+
+  .dash-heros { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin-bottom: 5px; }
+  .dash-hero {
+    position: relative; background: linear-gradient(135deg, var(--slate-deep), var(--slate));
+    border-radius: 4px; padding: 6px 8px; color: #fff; overflow: hidden; min-height: 38px;
+  }
+  .dash-hero.h2 { background: linear-gradient(135deg, #3a4a59, #4d5e6e); }
+  .dash-hero.h3 { background: linear-gradient(135deg, var(--slate), #4a5b6a); }
+  .dash-hero .lab { font-family: var(--mono); font-size: 5px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.85); font-weight: 500; }
+  .dash-hero .num { margin-top: 4px; font-family: var(--serif); font-weight: 400; font-size: 18px; line-height: 1; letter-spacing: -0.02em; }
+  .dash-hero .num em { font-style: normal; font-family: var(--sans); font-size: 6px; color: rgba(255,255,255,0.7); margin-left: 3px; font-weight: 500; }
+  .dash-hero .badge { display: inline-block; margin-left: 3px; background: var(--coral); color: #fff; font-family: var(--mono); font-size: 5px; font-weight: 600; padding: 1px 4px; border-radius: 999px; vertical-align: middle; }
+  .dash-hero.h2 .badge { background: var(--orange); }
+  .dash-hero.h3 .badge { background: var(--gold); color: var(--slate-deep); }
+
+  .dash-mids { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin-bottom: 5px; }
+  .dash-mid { background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 6px 8px; min-height: 36px; }
+  .dash-mid .lab { font-size: 6px; color: var(--slate-soft); font-weight: 500; }
+  .dash-mid .num { margin-top: 2px; font-family: var(--serif); font-weight: 400; font-size: 16px; line-height: 1; letter-spacing: -0.015em; color: var(--slate-deep); }
+  .dash-mid .num em { font-style: normal; font-family: var(--sans); font-size: 6px; font-weight: 500; color: var(--muted); margin-left: 2px; }
+  .dash-mid .voucher { font-family: var(--serif); font-size: 9px; color: var(--slate-deep); margin-top: 2px; font-weight: 500; }
+
+  .dash-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+  .dash-chart { background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 6px 8px; }
+  .dash-chart .h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 3px; }
+  .dash-chart .lab { font-size: 6px; color: var(--slate-deep); font-weight: 500; }
+  .dash-chart .num { font-family: var(--serif); font-weight: 400; font-size: 13px; line-height: 1; letter-spacing: -0.015em; color: var(--slate-deep); }
+  .dash-chart .num em { font-style: normal; font-family: var(--sans); font-size: 6px; font-weight: 500; color: var(--muted); margin-left: 2px; }
+  .dash-chart .spark { margin-top: 4px; height: 18px; width: 100%; }
+
+  /* Module rail (right side) */
+  .module-rail { display: flex; flex-direction: column; gap: 14px; padding-top: 8px; }
+  .module-rail .rail-eyebrow {
+    font-family: var(--mono); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--coral); font-weight: 500; padding-bottom: 14px; border-bottom: 1px solid var(--rule);
+  }
+  .mod-row {
+    display: grid; grid-template-columns: 60px 1fr; gap: 18px; align-items: start;
+    padding-bottom: 14px; border-bottom: 1px solid var(--rule);
+  }
+  .mod-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .mod-num {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em;
+    color: var(--coral); font-weight: 600; padding-top: 4px;
+  }
+  .mod-row.b2 .mod-num { color: var(--orange); }
+  .mod-row.b3 .mod-num { color: #c8a050; }
+  .mod-row.b4 .mod-num { color: var(--slate); }
+  .mod-body h3 {
+    font-family: var(--serif); font-size: 22px; line-height: 1.1;
+    color: var(--slate-deep); font-weight: 500; letter-spacing: -0.01em; margin: 0 0 4px;
+  }
+  .mod-body .tag {
+    display: inline-block; padding: 2px 8px; background: var(--paper-2);
+    color: var(--slate-deep); font-family: var(--mono); font-size: 9px;
+    letter-spacing: 0.16em; text-transform: uppercase; font-weight: 500;
+    border-radius: 2px; margin-bottom: 6px;
+  }
+  .mod-body p {
+    font-size: 13px; line-height: 1.45; color: #3a4753; margin: 0;
+  }
+
+  .build-grid {
+    position: absolute; top: 580px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+  }
+  .build-card {
+    background: #fff; border: 1px solid var(--rule-soft); padding: 28px 28px;
+    display: flex; flex-direction: column; gap: 12px;
+    position: relative; border-radius: 2px;
+  }
+  .build-card .num { font-family: var(--mono); font-size: 12px; letter-spacing: 0.2em; color: var(--coral); }
+  .build-card h3 { font-family: var(--serif); font-size: 30px; line-height: 1.1; color: var(--slate-deep); font-weight: 500; letter-spacing: -0.01em; }
+  .build-card .tag { display: inline-block; padding: 5px 12px; background: var(--paper-2); color: var(--slate-deep); font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; border-radius: 100px; align-self: flex-start; }
+  .build-card ul { padding: 0; margin: 0; list-style: none; display: grid; gap: 7px; }
+  .build-card ul li { font-size: 14px; line-height: 1.35; color: #3a4753; padding-left: 16px; position: relative; }
+  .build-card ul li::before { content: ''; position: absolute; left: 0; top: 9px; width: 8px; height: 1px; background: var(--coral); }
+  .build-card .badge {
+    position: absolute; top: 0; right: 0; padding: 8px 16px;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: #fff; background: var(--coral);
+  }
+  .build-card.b2 .badge { background: var(--orange); }
+  .build-card.b3 .badge { background: var(--gold); color: var(--slate-deep); }
+  .build-card.b4 .badge { background: var(--slate); }
+
+  /* =============== SLIDE 7 — JOURNEY 1 (TELEMED) =============== */
+  .journey {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-columns: 480px 1fr; gap: 80px;
+  }
+  .journey-left .h-slide { margin: 20px 0 28px; font-size: 64px; }
+  .journey-left .goal {
+    background: var(--slate-deep); color: #fff; padding: 32px;
+    border-radius: 4px; margin-top: 32px;
+  }
+  .journey-left .goal .l { font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+  .journey-left .goal p { font-size: 19px; line-height: 1.55; margin: 0; color: rgba(255,255,255,0.92); }
+
+  .impact { margin-top: 32px; }
+  .impact .l { font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--coral); margin-bottom: 16px; }
+  .impact ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+  .impact ul li { font-size: 19px; color: #3a4753; line-height: 1.45; padding-left: 22px; position: relative; }
+  .impact ul li::before { content: ''; position: absolute; left: 0; top: 11px; width: 10px; height: 2px; background: var(--coral); }
+
+  .steps { display: grid; gap: 18px; }
+  .step {
+    background: #fff; border: 1px solid var(--rule-soft);
+    border-left: 6px solid var(--coral);
+    padding: 28px 36px;
+    display: grid; grid-template-columns: 200px 1fr; gap: 32px; align-items: start;
+    border-radius: 2px;
+  }
+  .step.j2 { border-left-color: var(--orange); }
+  .step .step-head { display: flex; flex-direction: column; gap: 6px; }
+  .step .step-head .n { font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em; color: var(--coral); text-transform: uppercase; }
+  .step.j2 .step-head .n { color: var(--orange); }
+  .step .step-head .t { font-family: var(--serif); font-size: 24px; color: var(--slate-deep); font-weight: 500; line-height: 1.1; }
+  .step .step-body { font-size: 18px; line-height: 1.5; color: #3a4753; }
+
+  /* =============== SLIDE 9 — DESIGN PRINCIPLES =============== */
+  .principles {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-rows: auto 1fr; gap: 56px;
+  }
+  .principles .head { display: grid; grid-template-columns: 540px 1fr; gap: 80px; align-items: end; }
+  .principles .head .lede { font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 30px; line-height: 1.4; color: var(--slate); max-width: 760px; }
+
+  .principle-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .principle {
+    background: var(--paper-2); padding: 56px 48px;
+    display: flex; flex-direction: column; gap: 24px; min-height: 520px;
+    position: relative; border-radius: 2px;
+  }
+  .principle .num { font-family: var(--serif); font-size: 140px; line-height: 0.9; letter-spacing: -0.04em; font-weight: 300; }
+  .principle.p1 .num { color: var(--coral); }
+  .principle.p2 .num { color: var(--orange); }
+  .principle.p3 .num { color: var(--slate); }
+  .principle h3 { font-family: var(--serif); font-size: 36px; line-height: 1.1; color: var(--slate-deep); font-weight: 500; letter-spacing: -0.015em; }
+  .principle p { font-size: 19px; line-height: 1.55; color: #3a4753; margin: 0; }
+
+  /* =============== SLIDE 10 — XCOINS REWARDS =============== */
+  .rewards {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-columns: 460px 1fr; gap: 64px;
+  }
+  .rewards-left .h-slide { font-size: 56px; margin: 16px 0 20px; }
+  .rewards-left .body { color: #3a4753; }
+
+  .reward-table {
+    width: 100%; border-collapse: collapse; font-size: 15px;
+    background: #fff; border: 1px solid var(--rule-soft);
+  }
+  .reward-table thead tr { background: var(--slate-deep); color: #fff; }
+  .reward-table th { padding: 11px 20px; text-align: left; font-family: var(--mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 500; }
+  .reward-table th:nth-child(2), .reward-table th:nth-child(3) { text-align: right; }
+  .reward-table td { padding: 7px 20px; border-bottom: 1px solid var(--rule-soft); color: #3a4753; }
+  .reward-table td:nth-child(2), .reward-table td:nth-child(3) { text-align: right; font-variant-numeric: tabular-nums; }
+  .reward-table tr.cat td {
+    background: var(--paper-2); font-family: var(--mono); font-size: 10px; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--coral); padding: 7px 20px; font-weight: 600;
+  }
+  .reward-table .coin { font-family: var(--serif); font-size: 19px; color: var(--coral); font-weight: 500; }
+
+  .redemption {
+    background: var(--slate-deep); color: #fff;
+    padding: 28px 36px; margin-top: 24px;
+    border-radius: 4px;
+  }
+  .redemption .l { font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+  .redemption ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; }
+  .redemption ul li { font-size: 16px; color: rgba(255,255,255,0.92); line-height: 1.4; }
+
+  /* =============== SLIDE 11 — COMMERCIAL TERMS =============== */
+  .commercial {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-rows: auto 1fr; gap: 48px;
+  }
+  .commercial .head { display: grid; grid-template-columns: 540px 1fr; gap: 80px; align-items: end; }
+  .commercial .head .lede { font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 28px; line-height: 1.4; color: var(--slate); max-width: 760px; }
+
+  .commercial-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .price-table {
+    background: #fff; border: 1px solid var(--rule-soft); border-radius: 2px;
+    overflow: hidden;
+  }
+  .price-table h4 {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase;
+    padding: 16px 28px; background: var(--paper-2); color: var(--slate-deep);
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .price-table table { width: 100%; border-collapse: collapse; font-size: 17px; }
+  .price-table th { font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 500; color: var(--muted); padding: 12px 28px; text-align: left; border-bottom: 1px solid var(--rule-soft); }
+  .price-table th.r, .price-table td.r { text-align: right; font-variant-numeric: tabular-nums; }
+  .price-table td { padding: 13px 28px; border-bottom: 1px solid var(--rule-soft); color: #3a4753; }
+  .price-table tr:last-child td { border-bottom: none; }
+  .price-table .item-name { font-weight: 500; color: var(--slate-deep); }
+  .price-table .price { font-family: var(--serif); color: var(--coral); font-size: 19px; font-weight: 500; }
+  .price-table .note { font-size: 14px; color: var(--muted); }
+  .price-table .free { color: var(--orange); font-weight: 600; font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; }
+
+  .price-table.tiered .tier-row { background: linear-gradient(90deg, transparent 0%, transparent 100%); }
+  .price-table.tiered tr.highlight td { background: rgba(225, 93, 74, 0.06); }
+
+  /* =============== SLIDE 12 — PAYBACK MATH =============== */
+  .payback {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-columns: 540px 1fr; gap: 80px;
+  }
+  .payback-card {
+    background: var(--slate-deep); color: #fff; padding: 64px 56px;
+    border-radius: 4px;
+    display: flex; flex-direction: column; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .payback-card::before {
+    content: ''; position: absolute; top: -150px; right: -150px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, var(--coral) 0%, transparent 70%);
+    opacity: 0.4;
+  }
+  .payback-card .l { font-family: var(--mono); font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px; position: relative; }
+  .payback-card .equation {
+    font-family: var(--serif); font-size: 56px; line-height: 1.05; font-weight: 300; letter-spacing: -0.02em;
+    margin-bottom: 32px; position: relative;
+  }
+  .payback-card .equation strong { color: var(--gold); font-weight: 500; }
+  .payback-card .equation em { color: var(--coral); font-style: normal; font-weight: 500; }
+  .payback-card p { font-size: 21px; line-height: 1.55; color: rgba(255,255,255,0.85); margin: 0 0 18px; position: relative; }
+  .payback-card p:last-of-type { margin-bottom: 0; }
+
+  .payback-anchors h3 { font-family: var(--serif); font-size: 44px; font-weight: 400; color: var(--slate-deep); margin-bottom: 28px; letter-spacing: -0.015em; line-height: 1.1; }
+  .anchor-list { display: grid; gap: 0; }
+  .anchor-row {
+    display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: baseline;
+    padding: 22px 0; border-bottom: 1px solid var(--rule);
+  }
+  .anchor-row:first-child { border-top: 1px solid var(--rule); }
+  .anchor-row .label-text { font-size: 19px; color: #3a4753; line-height: 1.4; }
+  .anchor-row .value-text { font-family: var(--serif); font-size: 26px; color: var(--coral); font-weight: 500; white-space: nowrap; letter-spacing: -0.01em; }
+
+  /* =============== SLIDE 13 — IMPLEMENTATION ROADMAP =============== */
+  .roadmap {
+    position: absolute; top: 180px; left: 80px; right: 80px; bottom: 130px;
+    display: grid; grid-template-rows: auto 1fr; gap: 56px;
+  }
+  .roadmap .head { display: grid; grid-template-columns: 540px 1fr; gap: 80px; align-items: end; }
+  .roadmap .head .lede { font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 28px; line-height: 1.4; color: var(--slate); }
+
+  .phase-track { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; position: relative; }
+  .phase-track::before {
+    content: ''; position: absolute; top: 28px; left: 28px; right: 28px; height: 2px;
+    background: linear-gradient(90deg, var(--coral) 0%, var(--orange) 50%, var(--gold) 100%);
+    z-index: 0;
+  }
+  .phase {
+    background: #fff; border: 1px solid var(--rule-soft); padding: 32px 28px;
+    display: flex; flex-direction: column; gap: 14px; position: relative;
+    border-radius: 2px;
+  }
+  .phase .dot {
+    width: 56px; height: 56px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--serif); font-size: 26px; color: #fff; font-weight: 500;
+    margin-top: -60px; margin-left: -4px; margin-bottom: 8px;
+    position: relative; z-index: 1;
+  }
+  .phase.p1 .dot { background: var(--coral); }
+  .phase.p2 .dot { background: var(--coral); }
+  .phase.p3 .dot { background: var(--orange); }
+  .phase.p4 .dot { background: var(--orange); }
+  .phase.p5 .dot { background: var(--gold); color: var(--slate-deep); }
+  .phase .name { font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--slate-soft); }
+  .phase h4 { font-family: var(--serif); font-size: 26px; line-height: 1.1; color: var(--slate-deep); font-weight: 500; letter-spacing: -0.01em; }
+  .phase .when { font-family: var(--mono); font-size: 13px; letter-spacing: 0.12em; color: var(--coral); }
+  .phase p { font-size: 15px; line-height: 1.5; color: #3a4753; margin: 0; }
+
+  .needs-strip {
+    margin-top: 24px;
+    background: var(--slate-deep); color: #fff;
+    padding: 28px 40px; border-radius: 4px;
+    display: grid; grid-template-columns: auto 1fr; gap: 56px; align-items: center;
+  }
+  .needs-strip .needs-l { font-family: var(--mono); font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); }
+  .needs-strip .needs-l h4 { font-family: var(--serif); font-size: 28px; color: #fff; margin-top: 4px; font-weight: 500; }
+  .needs-strip ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 32px; }
+  .needs-strip ul li { font-size: 15px; color: rgba(255,255,255,0.9); line-height: 1.4; padding-left: 16px; position: relative; }
+  .needs-strip ul li::before { content: ''; position: absolute; left: 0; top: 9px; width: 8px; height: 1px; background: var(--gold); }
+
+  /* =============== SLIDE 14 — CLOSING =============== */
+  .closing { background: var(--paper); color: var(--slate-deep); }
+  .closing .bg-shape {
+    position: absolute; right: -200px; bottom: -200px;
+    width: 1000px; height: 1000px;
+    background: radial-gradient(circle at 40% 40%, var(--orange) 0%, var(--coral) 40%, transparent 70%);
+    opacity: 0.6;
+  }
+  .closing .bg-gold {
+    position: absolute; left: -200px; top: -200px;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, var(--gold) 0%, transparent 70%);
+    opacity: 0.25;
+  }
+  .closing .closing-grid {
+    position: relative; z-index: 1;
+    width: 100%; height: 100%; padding: 56px 80px;
+    display: grid; grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+  }
+  .closing .top { display: flex; align-items: flex-start; justify-content: space-between; }
+  .closing .top img.iwc { height: 108px; width: auto; }
+  .closing .top img.wellx-mark {
+    height: 216px; width: auto;
+    margin-top: -54px; margin-bottom: -54px;
+    margin-left: -28px;
+  }
+  .closing .top .x { font-family: 'Archivo', 'Inter', sans-serif; font-style: normal; font-weight: 300; color: #0b1216; font-size: 64px; letter-spacing: -0.04em; line-height: 1; }
+  .closing .top .meta { font-family: var(--mono); font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--slate-soft); text-align: right; line-height: 1.8; }
+
+  .closing .center {
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .closing .center .eyebrow { color: var(--coral); margin-bottom: 28px; font-size: 14px; }
+  .closing h1.closing-title {
+    font-family: var(--serif); font-weight: 300; font-size: 88px; line-height: 1.0; letter-spacing: -0.025em;
+    margin: 0; max-width: 1500px; color: var(--slate-deep);
+  }
+  .closing h1.closing-title em {
+    font-style: italic; font-weight: 400;
+    color: var(--coral);
+  }
+  .closing .center .body-lg {
+    margin-top: 28px; max-width: 1100px;
+    font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 24px; line-height: 1.45;
+    color: var(--slate);
+  }
+    color: rgba(255,255,255,0.85);
+  }
+
+  .closing .bottom {
+    display: grid; grid-template-columns: 1fr auto; gap: 64px; align-items: end;
+  }
+  .closing .signoff { font-family: var(--serif); font-size: 24px; font-weight: 400; color: var(--slate-deep); }
+  .closing .signoff .name { font-weight: 500; color: var(--coral); margin-top: 8px; }
+  .closing .signoff .role { font-size: 16px; font-family: var(--sans); font-weight: 400; color: var(--slate-soft); margin-top: 4px; }
+  .closing .signoff .contact { font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--slate-soft); margin-top: 16px; }
+
+  .closing .next-card {
+    background: #fff; border: 1px solid var(--rule-soft);
+    padding: 28px 36px; min-width: 460px; border-radius: 4px;
+  }
+  .closing .next-card .l { font-family: var(--mono); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--coral); margin-bottom: 16px; }
+  .closing .next-card ol { padding-left: 22px; margin: 0; display: grid; gap: 8px; }
+  .closing .next-card ol li { font-size: 15px; color: var(--slate); line-height: 1.4; }
+
+  /* =============== SECTION DIVIDERS =============== */
+  .divider {
+    background: var(--paper-2);
+    display: flex; flex-direction: column; justify-content: center; padding: 0 200px;
+    position: relative;
+  }
+  .divider .num {
+    font-family: var(--mono); font-size: 14px; letter-spacing: 0.3em;
+    color: var(--coral); margin-bottom: 32px;
+  }
+  .divider h1 {
+    font-family: var(--serif); font-weight: 300; font-size: 200px; line-height: 0.95; letter-spacing: -0.035em;
+    color: var(--slate-deep); margin: 0;
+  }
+  .divider h1 em { font-style: italic; font-weight: 400; color: var(--coral); }
+  .divider .lede {
+    margin-top: 48px; max-width: 1100px;
+    font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 32px; line-height: 1.45;
+    color: var(--slate);
+  }
+  .divider .corner-mark {
+    position: absolute; top: 80px; right: 200px;
+    font-family: var(--mono); font-size: 13px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--slate-soft);
+  }
+
+</style>
+</head>
+<body style="">
+
+<deck-stage aspect="16:9" style="--deck-rail-w: 188px;">
+
+  <!-- =================== SLIDE 1 — COVER =================== -->
+  <section class="slide cover">
+    <div class="bg-slate"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-photo"></div>
+
+    <div class="cover-grid" style="opacity: 1">
+      <div class="top-row">
+        <img class="logo" src="assets/iwc-logo.png" alt="IMS Wellth Care">
+        <div class="doc-meta"></div>
+      </div>
+
+      <div class="center-block">
+        <div style="display:none"></div>
+        <h1 class="cover-title" style="font-size: 145px">Turning insurance<br>into <em>daily</em><br>experiences.</h1>
+        <div class="subhead"></div>
+      </div>
+
+      <div class="bottom-row">
+        <div class="built-by"></div>
+        <div class="signature-card">
+          <div class="label">Prepared for</div>
+          <div class="name">Ms. Maxine Almanzor</div>
+          <div class="role">Chief Executive Officer</div>
+          <div class="org">IMS Wellth Care, Inc.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 2 — EXEC SUMMARY =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand" style="">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 01 · Executive Summary</div>
+    </div>
+
+    <div class="two-col">
+      <div class="col-label">
+        <span class="eyebrow" style="font-size: 18px;">Executive summary</span>
+        <h2 class="h-slide">Three priorities,<br>delivered fast.</h2>
+        <span class="accent-line"></span>
+        <p class="body-lg" style="margin-top:24px; color:#3a4753;">
+          WellX proposes a strategic partnership with IMS Wellth Care that delivers immediate, measurable value while supporting your long-term goals of cost control, member retention, and competitive differentiation in the Philippine HMO market.
+        </p>
+        <div class="meta-block">
+          <div style=""><br></div>
+          <div style=""><br></div>
+        </div>
+      </div>
+
+      <div class="priority-list">
+        <div class="item">
+          <div class="num">01</div>
+          <div>
+            <h3>Reduce call center workload</h3>
+            <p>Ready-to-deploy self-service for member inquiries, claims status, and LOA processing — handling 60–70% of common queries without human escalation.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="num">02</div>
+          <div>
+            <h3>Drive telemedicine utilization</h3>
+            <p>Integrate IWC's existing telemedicine platform directly into the member experience, reinforced with xCoins rewards that make virtual care the default first step.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="num">03</div>
+          <div>
+            <h3>Steer members to preferred clinics</h3>
+            <p>Tiered xCoins rewards that route members to partner facilities first — and IWC-owned clinics with the highest reward — making the preferred path the easiest path.</p>
+          </div>
+        </div>
+        <div style="margin-top:32px; padding:28px 32px; background: var(--slate-deep); color:#fff; border-radius:4px;">
+          <div style="font-family:var(--mono); font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color: var(--gold); margin-bottom: 10px;">Why now</div>
+          <div style="font-family:var(--serif); font-size:24px; line-height:1.35; font-weight:400;">Quick wins require light integration, can be piloted rapidly, and generate visible ROI within the <em style="color:var(--gold); font-style:normal; font-weight:500;">first 3–6 months</em>.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">02 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 3 — DEAL HIGHLIGHTS =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 02 · Deal Highlights</div>
+    </div>
+
+    <div class="deal-grid">
+      <div class="head">
+        <div>
+          <span class="eyebrow" style="font-size: 18px;">Deal highlights</span>
+          <h2 class="h-slide" style="margin-top:24px;">Low-risk entry,<br>built for scale.</h2>
+        </div>
+        <div class="lede">Four structural commitments designed to remove friction from a Year-1 decision while protecting IWC's economics as the program grows.</div>
+      </div>
+
+      <div class="deal-cards">
+        <div class="deal-card c1">
+          <div class="swatch"></div>
+          <div>
+            <div class="num">01 · ENTRY</div>
+            <div class="title" style="margin-top:14px;">₱100<span style="font-size:24px; color:var(--muted);">/mo</span></div>
+            <div class="blurb" style="margin-top:8px;">Per active member only — no fee on dormant members. You pay for engagement.</div>
+          </div>
+          <div class="body-sm" style="font-family:var(--mono); font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:var(--slate-soft); border-top:1px solid var(--rule-soft); padding-top:16px;">Tier 1 starting rate</div>
+        </div>
+
+        <div class="deal-card c2">
+          <div class="swatch"></div>
+          <div>
+            <div class="num">02 · BRANDING</div>
+            <div class="title" style="margin-top:14px;">White Label<br>included</div>
+            <div class="blurb" style="margin-top:14px;">Fully branded as IWC's own app at no extra cost on multi-year terms. Members never see a third-party brand.</div>
+          </div>
+          <div class="body-sm" style="font-family:var(--mono); font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:var(--slate-soft); border-top:1px solid var(--rule-soft); padding-top:16px;">$50K value · waived</div>
+        </div>
+
+        <div class="deal-card c3">
+          <div class="swatch"></div>
+          <div>
+            <div class="num">03 · INTELLIGENCE</div>
+            <div class="title" style="margin-top:14px;">Co-built AI<br>customer service</div>
+            <div class="blurb" style="margin-top:14px;">Trained on IWC's specific policies during Year 1. Internal pilot with staff. Live to members in Year 2.</div>
+          </div>
+          <div class="body-sm" style="font-family:var(--mono); font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:var(--slate-soft); border-top:1px solid var(--rule-soft); padding-top:16px;">Year 1 build · Year 2 live</div>
+        </div>
+
+        <div class="deal-card c4">
+          <div class="swatch"></div>
+          <div>
+            <div class="num">04 · TIMELINE</div>
+            <div class="title" style="margin-top:14px;">Pilot-ready
+in 30 days</div>
+            <div class="blurb" style="margin-top:14px;">Rapid deployment, measurable impact within 30 days. Phased rollout — soft launch, scale, AI build, AI live.</div>
+          </div>
+          <div class="body-sm" style="font-family:var(--mono); font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:var(--slate-soft); border-top:1px solid var(--rule-soft); padding-top:16px;">From contract signing</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">03 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 4 — ABOUT WELLX =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 03 · About WellX</div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-left">
+        <span class="eyebrow">About WellX</span>
+        <h2 class="h-slide">A health insurtech<br>that rewards the<br>right behaviors.</h2>
+        <p>WellX is a health insurtech platform that makes insurance more engaging and preventive by rewarding healthy behaviors. Members earn xCoins for positive actions and manage their coverage through a simple, intuitive app.</p>
+        <p>Our mission is to turn passive coverage into an <em style="font-family:var(--serif); color:var(--coral);">active, rewarding partnership</em> — built on four years of regional behavioral data across the GCC and Southeast Asia.</p>
+
+        <div class="recognition">
+          <div class="item">
+            <span class="l">Recognition</span>
+            UAE Ministry's Future 100
+          </div>
+          <div class="item">
+            <span class="l">Award</span>
+            Best Digital Health 2023, Med-Tech World
+          </div>
+          <div class="item">
+            <span class="l">Press</span>
+            Top 10 Great Ideas — Entrepreneur magazine
+          </div>
+          <div class="item">
+            <span class="l">Investors</span>
+            Sanabil · Plug and Play · Dash · 500 Global
+          </div>
+        </div>
+      </div>
+
+      <div class="scale-card">
+        <div>
+          <span class="eyebrow">Proven scale</span>
+          <h3>Three years.<br>Four years of data.<br>Two million members.</h3>
+        </div>
+        <div class="scale-rows">
+          <div class="scale-row">
+            <div class="yr">Foundation<small>2022 — 2023</small></div>
+            <div class="stats">
+              <span><span class="big">100K+</span> Members</span>
+              <span><span class="big">4</span> Insurers</span>
+              <span><span class="big">5+</span> Brokers</span>
+            </div>
+          </div>
+          <div class="scale-row">
+            <div class="yr">Scale<small>2024 — 2025</small></div>
+            <div class="stats">
+              <span><span class="big">1M+</span> Members</span>
+              <span><span class="big">7</span> Insurers</span>
+              <span><span class="big">50+</span> Brokers</span>
+            </div>
+          </div>
+          <div class="scale-row">
+            <div class="yr">Today<small>2026</small></div>
+            <div class="stats">
+              <span><span class="big">2M+</span> Members</span>
+              <span><span class="big">GCC</span> + SEA</span>
+              <span><span class="big">5+</span> Languages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">04 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 5 — REGIONAL CASE STUDY =================== -->
+  <section class="slide" style="">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 04 · Regional Case Study</div>
+    </div>
+
+    <div class="case-grid">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Proven results</span>
+          <h2 class="h-slide" style="margin-top:24px;">A leading KSA insurer.<br>One SDK. Three numbers.</h2>
+        </div>
+        <div class="lede">A leading KSA insurer deployed the WellX SDK with gamification, embedding wellness directly into their member experience. Within six months, the engagement curve looked unrecognizable next to their pre-launch baseline.</div>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat-card s1">
+          <div>
+            <div class="tag">Acquisition</div>
+            <div class="pct"><em>50%</em></div>
+            <div class="label">App download lift</div>
+          </div>
+          <div class="desc">Versus the insurer's prior member app — driven by clearer value (rewards, telemedicine, real-time claims) at the install moment.</div>
+        </div>
+        <div class="stat-card s2">
+          <div>
+            <div class="tag">Stickiness</div>
+            <div class="pct"><em>80%</em></div>
+            <div class="label">6-month retention</div>
+          </div>
+          <div class="desc">Members still active six months after first session — well above industry-standard retention curves for insurance apps.</div>
+        </div>
+        <div class="stat-card s3">
+          <div>
+            <div class="tag">Engagement</div>
+            <div class="pct"><em>40%</em></div>
+            <div class="label">Activation rate</div>
+          </div>
+          <div class="desc">Members who completed at least one rewarded behavior in their first 30 days — the leading indicator of long-term retention.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">05 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 6 — WHAT WE'LL BUILD =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 05 · What We'll Build Together</div>
+    </div>
+
+    <div class="build-intro" style="">
+      <div>
+        <span class="eyebrow">What we'll build together</span>
+        <h2 class="h-slide" style="margin-top: 24px; width: 540px;">A single integrated app —<br>fully branded as IWC's own.</h2>
+      </div>
+      <div class="lede" style="">Self-service insurance management, embedded telemedicine, and behavioral rewards that drive measurable health outcomes — packaged as four product modules.</div>
+    </div>
+
+    <div class="build-grid">
+      <div class="build-card b1">
+        <span class="badge">Reduce workload</span>
+        <div class="num">01</div>
+        <h3>Insurance Manager</h3>
+        <span class="tag">Self-service</span>
+        <ul>
+          <li>Policy details &amp; benefits on-demand</li>
+          <li>Real-time claims status &amp; updates</li>
+          <li>Digital insurance card</li>
+          <li>Push notifications for approvals</li>
+          <li>Handles 60–70% of common inquiries</li>
+        </ul>
+      </div>
+      <div class="build-card b2">
+        <span class="badge">Drive utilization</span>
+        <div class="num">02</div>
+        <h3>Embedded Telemedicine</h3>
+        <span class="tag">IWC network</span>
+        <ul>
+          <li>In-app video consults</li>
+          <li>Symptom triage flow</li>
+          <li>Digital prescriptions in-app</li>
+          <li>Doctor sees member's policy inline</li>
+          <li>xCoins earned per completed visit</li>
+        </ul>
+      </div>
+      <div class="build-card b3">
+        <span class="badge">Steer behavior</span>
+        <div class="num">03</div>
+        <h3>xCoins Clinic Rewards</h3>
+        <span class="tag">Tiered rewards</span>
+        <ul>
+          <li>IWC-owned clinics earn the most</li>
+          <li>Partner clinics earn mid-tier</li>
+          <li>QR check-in at clinic reception</li>
+          <li>LOA auto-populates at check-in</li>
+          <li>Variable bonus surprise rewards</li>
+        </ul>
+      </div>
+      <div class="build-card b4">
+        <span class="badge">Year 2 · co-built</span>
+        <div class="num">04</div>
+        <h3>AI Customer Service Agent</h3>
+        <span class="tag">Year 2 rollout</span>
+        <ul>
+          <li>Trained on IWC's own policies</li>
+          <li>Year 1: internal staff pilot</li>
+          <li>Year 2: live to all members</li>
+          <li>Targets +30–40% deflection</li>
+          <li>IWC brand voice &amp; tone tuned</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">06 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 7 — APP PROTOTYPE =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 06 · App Prototype</div>
+    </div>
+
+    <div class="build-intro">
+      <div>
+        <span class="eyebrow">White-label prototype</span>
+        <h2 class="h-slide" style="margin-top: 24px;">IWC Admin Portal —<br>live preview.</h2>
+      </div>
+      <div class="lede">Fully branded as IWC's own — logo, colors, naming. Members and administrators never see a third-party product. This is what it looks like on day one.</div>
+    </div>
+
+    <div class="build-stage">
+      <!-- Left: MacBook with IWC dashboard -->
+      <div class="mb-frame">
+        <div class="mb-screen">
+          <div class="mb-display">
+            <div class="dash-topbar">
+              <div class="dots"><span></span><span></span><span></span></div>
+              <div class="url">portal.iwc.com.ph<b> / dashboard / overview</b></div>
+            </div>
+            <div class="dash-app">
+              <aside class="dash-side">
+                <div class="brand">
+                  <img src="assets/iwc-logo.png" alt="IWC">
+                  <div class="org">IWC<small>Admin</small></div>
+                </div>
+                <div class="group-label">Main</div>
+                <div class="dash-nav">
+                  <div class="item active"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9M5 10v10h14V10"></path></svg>Home</div>
+                  <div class="item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l9.84-9.84a5.5 5.5 0 000-7.78z"></path></svg>Health</div>
+                  <div class="item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"></path></svg>Engagement</div>
+                  <div class="item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"></circle><path d="M9 14l-1 8 4-3 4 3-1-8"></path></svg>Challenges</div>
+                  <div class="item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V7a6 6 0 0112 0v2M5 9h14l-1 12H6L5 9z"></path></svg>Rewards</div>
+                  <div class="item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="4"></circle><path d="M2 21a7 7 0 0114 0"></path></svg>Members</div>
+                  <div class="item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path></svg>Policies</div>
+                  <div class="item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8"></path></svg>Claims</div>
+                </div>
+              </aside>
+              <main class="dash-main">
+                <div class="head">
+                  <div>
+                    <div class="crumb">§ Wellness · Overview</div>
+                    <h1>Wellness Dashboard</h1>
+                  </div>
+                  <div class="user">
+                    <div class="who"><div class="n">Juan Dela Cruz</div><div class="e">juandlc@wellx.ph</div></div>
+                    <div class="ava">J</div>
+                  </div>
+                </div>
+                <div class="filters">
+                  <div class="pill">All members ▾</div>
+                  <div class="pill">Last 30 days ▾</div>
+                  <div class="pill act">Clear filters</div>
+                </div>
+                <div class="dash-heros">
+                  <div class="dash-hero"><div class="lab">Activated</div><div class="num">1,000<em>members</em></div></div>
+                  <div class="dash-hero h2"><div class="lab">Devices</div><div class="num">750<em>devices</em><span class="badge">70%</span></div></div>
+                  <div class="dash-hero h3"><div class="lab">Surveys</div><div class="num">600<em>done</em><span class="badge">60%</span></div></div>
+                </div>
+                <div class="dash-mids">
+                  <div class="dash-mid"><div class="lab">Total xCoins</div><div class="num">3,600<em>xCoin</em></div></div>
+                  <div class="dash-mid"><div class="lab">Eligible rewards</div><div class="num">660<em>rewards</em></div></div>
+                  <div class="dash-mid"><div class="lab">Top voucher</div><div class="voucher">GCash ₱100</div></div>
+                </div>
+                <div class="dash-charts">
+                  <div class="dash-chart">
+                    <div class="h"><div class="lab">Steps · 2024</div></div>
+                    <div class="num">45,480<em>steps</em></div>
+                    <svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none">
+                      <defs><linearGradient id="sg1b" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E15D4A" stop-opacity="0.3"></stop><stop offset="100%" stop-color="#E15D4A" stop-opacity="0"></stop></linearGradient></defs>
+                      <path d="M0 22 L20 18 L40 20 L60 14 L80 16 L100 9 L120 12 L140 7 L160 11 L180 5 L200 8 L200 30 L0 30 Z" fill="url(#sg1b)"></path>
+                      <path d="M0 22 L20 18 L40 20 L60 14 L80 16 L100 9 L120 12 L140 7 L160 11 L180 5 L200 8" fill="none" stroke="#E15D4A" stroke-width="1"></path>
+                    </svg>
+                  </div>
+                  <div class="dash-chart">
+                    <div class="h"><div class="lab">Goals · 2024</div></div>
+                    <div class="num">250<em>goals</em></div>
+                    <svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none">
+                      <defs><linearGradient id="sg2b" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E89846" stop-opacity="0.3"></stop><stop offset="100%" stop-color="#E89846" stop-opacity="0"></stop></linearGradient></defs>
+                      <path d="M0 25 L20 21 L40 23 L60 17 L80 14 L100 18 L120 11 L140 14 L160 9 L180 12 L200 6 L200 30 L0 30 Z" fill="url(#sg2b)"></path>
+                      <path d="M0 25 L20 21 L40 23 L60 17 L80 14 L100 18 L120 11 L140 14 L160 9 L180 12 L200 6" fill="none" stroke="#E89846" stroke-width="1"></path>
+                    </svg>
+                  </div>
+                </div>
+              </main>
+            </div>
+          </div>
+        </div>
+        <div class="mb-base"></div>
+      </div>
+
+      <!-- Right: Portal capability highlights -->
+      <div class="module-rail">
+        <div class="rail-eyebrow">Portal capabilities</div>
+        <div class="mod-row b1">
+          <div class="mod-num">01</div>
+          <div class="mod-body">
+            <h3>Member Analytics</h3>
+            <span class="tag">Live data</span>
+            <p>Activation rate, device enrollment, survey completion — all updated in real time across every member cohort.</p>
+          </div>
+        </div>
+        <div class="mod-row b2">
+          <div class="mod-num">02</div>
+          <div class="mod-body">
+            <h3>Rewards Tracker</h3>
+            <span class="tag">xCoins engine</span>
+            <p>Total xCoins issued, eligible reward conversions, and top voucher redemptions visible at a glance.</p>
+          </div>
+        </div>
+        <div class="mod-row b3">
+          <div class="mod-num">03</div>
+          <div class="mod-body">
+            <h3>Health Engagement</h3>
+            <span class="tag">Behavior data</span>
+            <p>Steps tracked, goals completed, consult history — normalized per member and exportable for underwriting teams.</p>
+          </div>
+        </div>
+        <div class="mod-row b4">
+          <div class="mod-num">04</div>
+          <div class="mod-body">
+            <h3>Admin &amp; Ops Tools</h3>
+            <span class="tag">Full control</span>
+            <p>Claims review, LOA management, policy sync, and member support — all in one IWC-branded workspace.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">07 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 8 — JOURNEY 1 =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 07 · Journey One — Telemedicine</div>
+    </div>
+
+    <div class="journey">
+      <div class="journey-left">
+        <span class="eyebrow">Journey 01</span>
+        <h2 class="h-slide">Talk to a doctor<br>in five minutes.</h2>
+        <div class="goal">
+          <div class="l">The goal</div>
+          <p>Shift minor consultations from in-person clinic visits to telemedicine — reducing claims cost and improving member convenience.</p>
+        </div>
+        <div class="impact">
+          <div class="l">Expected impact</div>
+          <ul>
+            <li>30–50% shift of minor consults from clinic to telemedicine</li>
+            <li>₱500–₱1,500 saved per shifted consult (industry benchmark)</li>
+            <li>Higher member satisfaction — 5-min access vs. 1-hour clinic visit</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-head">
+            <div class="n">Step 01</div>
+            <div class="t">Trigger</div>
+          </div>
+          <div class="step-body">Member feels unwell. Opens IWC app — home screen shows prominent <strong>"Talk to a Doctor"</strong> tile. Push notification: <em>"Feeling unwell? Get a doctor in 5 minutes — earn 50 xCoins."</em></div>
+        </div>
+        <div class="step">
+          <div class="step-head">
+            <div class="n">Step 02</div>
+            <div class="t">Pre-Consult</div>
+          </div>
+          <div class="step-body">Member taps tile → quick symptom checker (3–4 questions). App suggests telemedicine for mild cases, in-person for urgent. Member's policy and benefits auto-populate in the background.</div>
+        </div>
+        <div class="step">
+          <div class="step-head">
+            <div class="n">Step 03</div>
+            <div class="t">Consult</div>
+          </div>
+          <div class="step-body">Embedded video call with IWC's doctor network. Doctor sees member's policy, prior consults, medications inline. Average call: 8–12 minutes.</div>
+        </div>
+        <div class="step">
+          <div class="step-head">
+            <div class="n">Step 04</div>
+            <div class="t">Reward</div>
+          </div>
+          <div class="step-body">Member earns <strong style="color:var(--coral);">50 xCoins</strong> for completing the consult, plus <strong style="color:var(--coral);">25 bonus xCoins</strong> for rating it. Digital prescription delivered in-app.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">08 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 9 — JOURNEY 2 =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 08 · Journey Two — Clinic Visits</div>
+    </div>
+
+    <div class="journey">
+      <div class="journey-left">
+        <span class="eyebrow">Journey 02</span>
+        <h2 class="h-slide">Steer the visit<br>before it happens.</h2>
+        <div class="goal" style="background: linear-gradient(135deg, #C04C3D 0%, var(--coral) 100%);">
+          <div class="l" style="color: var(--gold);">The goal</div>
+          <p>Steer members toward IWC partner and company-owned clinics — reducing out-of-network costs and increasing volume at preferred facilities.</p>
+        </div>
+        <div class="impact">
+          <div class="l" style="color: var(--orange);">Expected impact</div>
+          <ul>
+            <li>20–35% increase in visits to company-owned clinics</li>
+            <li>15–25% shift from out-of-network to partner clinics</li>
+            <li>₱200–₱800 saved per redirected visit</li>
+            <li>Higher preventive care utilization, reducing long-term claims</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="steps">
+        <div class="step j2">
+          <div class="step-head">
+            <div class="n">Step 01</div>
+            <div class="t">Discovery</div>
+          </div>
+          <div class="step-body">App home screen surfaces nearest IWC clinics with reward amounts displayed. Higher rewards visible for company-owned facilities. <strong>Members see options before they need care.</strong></div>
+        </div>
+        <div class="step j2">
+          <div class="step-head">
+            <div class="n">Step 02</div>
+            <div class="t">Pre-Visit</div>
+          </div>
+          <div class="step-body">Member taps clinic → "Check In Here" button generates a one-time QR code. Day-of push reminder: <em>"Don't forget to check in to earn xCoins!"</em></div>
+        </div>
+        <div class="step j2">
+          <div class="step-head">
+            <div class="n">Step 03</div>
+            <div class="t">At Clinic</div>
+          </div>
+          <div class="step-body">Clinic staff scans QR code at check-in. Member sees instant confirmation. <strong>LOA auto-populates — no separate paperwork.</strong></div>
+        </div>
+        <div class="step j2">
+          <div class="step-head">
+            <div class="n">Step 04</div>
+            <div class="t">Reward</div>
+          </div>
+          <div class="step-body">xCoins credited within 24 hours after visit. Notification reinforces the reward. Educational content suggests preventive screenings for <strong style="color:var(--orange);">double xCoins</strong>.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">09 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 10 — DESIGN PRINCIPLES =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 09 · Design Principles</div>
+    </div>
+
+    <div class="principles">
+      <div class="head">
+        <div>
+          <span class="eyebrow">How behavior change happens</span>
+          <h2 class="h-slide" style="margin-top:24px;">Three principles<br>that do the work.</h2>
+        </div>
+        <div class="lede">The platform is designed around behavioral science: reward the right action, make the preferred path the easiest path, and use variable rewards to build lasting habits.</div>
+      </div>
+
+      <div class="principle-cards">
+        <div class="principle p1">
+          <div class="num">01</div>
+          <div>
+            <h3>Reward the<br>behavior, not<br>the outcome.</h3>
+            <p style="margin-top:18px;">Members can't always control health outcomes — but they can control behaviors. We reward the right step taken, not the result, so the system is fair and consistently motivating.</p>
+          </div>
+        </div>
+        <div class="principle p2">
+          <div class="num">02</div>
+          <div>
+            <h3>Make the<br>preferred path<br>the easiest path.</h3>
+            <p style="margin-top:18px;">The IWC partner clinic is one tap away. Out-of-network requires deliberate effort. When the right choice is also the easiest one, behavior follows architecture — not willpower.</p>
+          </div>
+        </div>
+        <div class="principle p3">
+          <div class="num">03</div>
+          <div>
+            <h3>Variable rewards<br>beat fixed<br>rewards.</h3>
+            <p style="margin-top:18px;">Occasional bonus surprises drive far stronger engagement than fixed rates. This is well-established behavioral science, and it's how we sustain interest beyond the early novelty.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">10 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 11 — XCOINS REWARDS =================== -->
+  <section class="slide" style="">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 10 · xCoins Reward Structure</div>
+    </div>
+
+    <div class="rewards">
+      <div class="rewards-left">
+        <span class="eyebrow">xCoins reward structure</span>
+        <h2 class="h-slide">Tiered to build<br>habit, then<br>reinforce health.</h2>
+        <p class="body" style="margin-top:24px;">xCoins are designed in tiers — small daily rewards build habit, larger rewards reinforce high-value health behaviors. Final values to be co-calibrated with IWC based on claims data and member profile.</p>
+
+        <div class="redemption">
+          <div class="l">Redemption options</div>
+          <ul>
+            <li>Discounts on premium upgrades &amp; add-ons</li>
+            <li>Cash equivalents at partner pharmacies</li>
+            <li>Wellness products &amp; healthy food vouchers</li>
+            <li>Free preventive check-ups at IWC clinics</li>
+            <li>Family rewards — gift xCoins to dependents</li>
+            <li>Fitness gear &amp; supplement bundles</li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <table class="reward-table">
+          <thead>
+            <tr><th>Behavior</th><th>xCoins</th><th>Frequency</th></tr>
+          </thead>
+          <tbody>
+            <tr class="cat"><td colspan="3">Daily Engagement</td></tr>
+            <tr><td>Steps tracked (5,000+)</td><td><span class="coin">10</span></td><td>Daily</td></tr>
+            <tr><td>Water intake logged</td><td><span class="coin">5</span></td><td>Daily</td></tr>
+            <tr><td>Sleep recorded</td><td><span class="coin">5</span></td><td>Daily</td></tr>
+
+            <tr class="cat"><td colspan="3">Weekly Engagement</td></tr>
+            <tr><td>Educational content read</td><td><span class="coin">30</span></td><td>Weekly</td></tr>
+            <tr><td>Mental wellness check-in</td><td><span class="coin">50</span></td><td>Weekly</td></tr>
+            <tr><td>Health goal set / reviewed</td><td><span class="coin">40</span></td><td>Weekly</td></tr>
+
+            <tr class="cat"><td colspan="3">Health Behaviors</td></tr>
+            <tr><td>Telemedicine consult completed</td><td><span class="coin">50</span></td><td>Per consult</td></tr>
+            <tr><td>Consult rating submitted</td><td><span class="coin">25</span></td><td>Per consult</td></tr>
+            <tr><td>Visit to IWC partner clinic</td><td><span class="coin">100</span></td><td>Per visit</td></tr>
+            <tr><td>Visit to IWC company-owned clinic</td><td><span class="coin">200</span></td><td>Per visit</td></tr>
+            <tr><td>Preventive screening completed</td><td><span class="coin">300</span></td><td>Per screening</td></tr>
+            <tr><td>Annual physical exam</td><td><span class="coin">500</span></td><td>Annually</td></tr>
+
+            <tr class="cat"><td colspan="3">Health Outcomes</td></tr>
+            <tr><td>Quarterly health goal achieved</td><td><span class="coin">500</span></td><td>Quarterly</td></tr>
+            <tr><td>Chronic care plan adherence</td><td><span class="coin">750</span></td><td>Quarterly</td></tr>
+            <tr><td>Annual wellness score improvement</td><td><span class="coin">1,000</span></td><td>Annually</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">11 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 12 — COMMERCIAL TERMS =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 11 · Commercial Terms</div>
+    </div>
+
+    <div class="commercial">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Commercial terms</span>
+          <h2 class="h-slide" style="margin-top:24px;">Year-1 risk down,<br>scale rewarded.</h2>
+        </div>
+        <div class="lede">Pricing structured to minimize Year 1 risk for IWC while building toward sustainable, scalable revenue as activation grows. Active members only — billed on quarterly average MAU.</div>
+      </div>
+
+      <div class="commercial-grid">
+        <div class="price-table">
+          <h4 style="font-size: 16px;">Pricing components</h4>
+          <table>
+            <thead>
+              <tr><th style="">Component</th><th class="r">USD</th><th class="r">PHP</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><div class="item-name">Setup fee</div><div class="note" style="">One-time · waived on 2-year</div></td><td class="r price">$25,000</td><td class="r price">₱1.5M</td></tr>
+              <tr><td><div class="item-name">PMPM (active members, tiered)</div><div class="note">See tiers</div></td><td class="r price">$12–$20</td><td class="r price">₱60–₱100</td></tr>
+              <tr><td><div class="item-name">Minimum active member floor</div><div class="note">Year 1 minimum · contractual</div></td><td class="r" colspan="2"><span class="price">20,000 members</span></td></tr>
+              <tr><td><div class="item-name">AI Agent co-build</div><div class="note">Year 1 · one-time training</div></td><td class="r price">$25,000</td><td class="r price">₱1.5M</td></tr>
+              <tr><td><div class="item-name">AI Agent live</div><div class="note">Year 2+ · per enrolled member / year</div></td><td class="r price">$2</td><td class="r price">₱120</td></tr>
+              <tr><td><div class="item-name">White Label</div><div class="note">FREE on 2-year</div></td><td class="r price">$50,000</td><td class="r"><span class="free">Included</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-table tiered">
+          <h4 style="font-size: 16px;">Tiered PMPM — more active members, lower cost</h4>
+          <table>
+            <thead>
+              <tr><th>Tier</th><th>Active members</th><th class="r">PMPM USD/yr</th><th class="r">PMPM PHP/mo</th></tr>
+            </thead>
+            <tbody>
+              <tr class="highlight"><td><div class="item-name">Tier 1</div></td><td>Up to 20,000</td><td class="r price">$20</td><td class="r price">₱100</td></tr>
+              <tr><td><div class="item-name">Tier 2</div></td><td>20,001 – 35,000</td><td class="r price">$17</td><td class="r price">₱85</td></tr>
+              <tr><td><div class="item-name">Tier 3</div></td><td>35,001 – 60,000</td><td class="r price">$15</td><td class="r price">₱75</td></tr>
+              <tr><td><div class="item-name">Tier 4</div></td><td>60,001 – 80,000</td><td class="r price">$13</td><td class="r price">₱65</td></tr>
+              <tr><td><div class="item-name">Tier 5</div></td><td>80,001 – 100,000</td><td class="r price">$12</td><td class="r price">₱60</td></tr>
+              <tr><td colspan="4" style="background: var(--paper-2); padding: 14px 28px; font-size: 16px; color: var(--slate-deep);"><strong style="font-family: var(--mono); font-size: 16px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--coral);">Active member</strong> &nbsp;Any IWC member who logs into the platform at least once during a calendar month (industry-standard MAU). Billing is calculated on the average MAU across each quarterly cycle.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">12 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 13 — PAYBACK MATH =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 12 · The Payback Math</div>
+    </div>
+
+    <div class="payback">
+      <div class="payback-card">
+        <div class="l">The payback math</div>
+        <div class="equation">
+          <strong>₱100</strong>/mo<br>
+          × 12 months<br>
+          = <em>₱1,200</em>/yr<br>
+          per active member.
+        </div>
+        <p style="">Just <strong style="color: var(--gold);">two (2) telemedicine consultations vs clinic visit savings</strong>&nbsp;covers the entire annual cost.</p>
+        <p style="font-family:var(--serif); font-style:italic; color:var(--gold); font-size:24px; line-height:1.4; margin-top:32px;">Everything beyond that — claims reduction, telemedicine shift, retention — is pure margin for IWC.</p>
+      </div>
+
+      <div class="payback-anchors">
+        <span class="eyebrow">Why ₱100/month is a bargain</span>
+        <h3 style="margin-top: 20px;">The PMPM cost is comfortably justified by the operational savings IWC unlocks — usually within the first quarter of usage.</h3>
+        <div class="anchor-list">
+          <div class="anchor-row">
+            <div class="label-text" style="">Single avoided call center inquiry</div>
+            <div class="value-text" style="">₱30 – ₱60</div>
+          </div>
+          <div class="anchor-row">
+            <div class="label-text" style="">Average HMO member generates 4–6 inquiries per year</div>
+            <div class="value-text">₱600 – ₱1,500</div>
+          </div>
+          <div class="anchor-row">
+            <div class="label-text">One avoided LOA processing event</div>
+            <div class="value-text">~30 min</div>
+          </div>
+          <div class="anchor-row">
+            <div class="label-text">One telemedicine consult vs. clinic visit</div>
+            <div class="value-text">₱500 – ₱1,500</div>
+          </div>
+          <div class="anchor-row">
+            <div class="label-text">One renewal retained per 100 members</div>
+            <div class="value-text">₱20K – ₱50K</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">13 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 14 — ROADMAP =================== -->
+  <section class="slide">
+    <div class="chrome-top">
+      <div class="brand">
+        <img class="iwc" src="assets/iwc-logo.png" alt="IWC">
+        <span class="x">×</span>
+        <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+      </div>
+      <div>Section 13 · Implementation Roadmap</div>
+    </div>
+
+    <div class="roadmap">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Implementation roadmap</span>
+          <h2 class="h-slide" style="margin-top: 24px;">Live with members<br>in 30 days</h2>
+        </div>
+        <div class="lede">Five phases from contract signing through Year 2 AI launch. Each phase has a defined deliverable and a measurable handoff.</div>
+      </div>
+
+      <div>
+        <div class="phase-track">
+          <div class="phase p1">
+            <div class="dot">1</div>
+            <div class="name">Phase 01 · Setup</div>
+            <h4>Contract &amp; integration</h4>
+            <div class="when" style="font-size: 16px;">DAY 1 TO 30</div>
+            <p>Contract execution, branding alignment, technical integration kickoff, content calibration with IWC's team.</p>
+          </div>
+          <div class="phase p2">
+            <div class="dot">2</div>
+            <div class="name">Phase 02 · Launch</div>
+            <h4>White-label goes live</h4>
+            <div class="when" style="font-size: 16px;">MONTH 1</div>
+            <p>App live with Insurance Manager, telemedicine integration, xCoins clinic rewards. Soft launch to a pilot member cohort.</p>
+          </div>
+          <div class="phase p3">
+            <div class="dot">3</div>
+            <div class="name">Phase 03 · Scale</div>
+            <h4>Full rollout</h4>
+            <div class="when" style="font-size: 16px;">MONTH 2</div>
+            <p>Full member rollout, activation campaigns with corporate HR clients. AI co-build begins — data collection &amp; training.</p>
+          </div>
+          <div class="phase p4">
+            <div class="dot">4</div>
+            <div class="name">Phase 04 · AI Build</div>
+            <h4>Internal AI pilot</h4>
+            <div class="when" style="font-size: 16px;">MONTH 3</div>
+            <p>AI Agent pilot with IWC staff. Accuracy testing, edge case handling, brand voice tuning before any member exposure.</p>
+          </div>
+          <div class="phase p5">
+            <div class="dot">5</div>
+            <div class="name">Phase 05 · AI Live</div>
+            <h4>Member rollout</h4>
+            <div class="when" style="font-size: 16px;">Year 2</div>
+            <p>AI Agent goes live for member queries. Targets additional 30–40% reduction in call center volume on top of self-service.</p>
+          </div>
+        </div>
+
+        <div class="needs-strip">
+          <div class="needs-l">
+            <div>What we need from IWC</div>
+            <h4>To kick off Phase 01.</h4>
+          </div>
+          <ul>
+            <li>Designated leads from operations, marketing, underwriting</li>
+            <li>Access to policy docs, benefit schedules, claims workflows</li>
+            <li>Approval on app branding — logo, color, naming</li>
+            <li>SME time during AI co-build (~4 hrs/week, Mo. 4–9)</li>
+            <li>Telemedicine network API access</li>
+            <li>Internal comms support for member activation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <div>IMS Wellth Care · WellX</div>
+      <div class="rule"></div>
+      <div class="page-num">14 / 15</div>
+    </div>
+  </section>
+
+  <!-- =================== SLIDE 15 — CLOSING =================== -->
+  <section class="slide closing" data-deck-last-visible="">
+    <div class="bg-gold"></div>
+    <div class="bg-shape"></div>
+
+    <div class="closing-grid">
+      <div class="top">
+        <div style="display:flex; align-items:center; gap:28px;">
+          <img class="iwc" src="assets/iwc-logo.png" alt="IMS Wellth Care">
+          <span class="x">×</span>
+          <img class="wellx-mark" src="assets/wellx-color.png" alt="WellX">
+        </div>
+        <div class="meta">
+          <div style="font-size: 1px">End of Proposal</div>
+          <div style="font-size: 1px">&nbsp;MAY 2026</div>
+          <div style="font-size: 18px; color: rgb(201, 72, 16); font-weight: 600">Confidential</div>
+        </div>
+      </div>
+
+      <div class="center">
+        <span class="eyebrow" style="font-size: 18px;">The future we're building together</span>
+        <h1 class="closing-title" style="">The future of insurance<br>is not managing risk<br>when it appears.<br>It's <em>influencing behavior</em><br>before it does.</h1>
+      </div>
+
+      <div class="bottom">
+        <div class="signoff"><div class="prompt" style="font-family: var(--serif); font-style: italic; font-weight: 300; font-size: 28px; color: var(--slate-deep); margin-bottom: 18px; line-height: 1.35;">Got any further questions?<br>Call our local representative:</div><img src="assets/wellx-color.png" alt="WellX" style="height:64px; margin: 14px 0 6px; display:block;">
+          <div class="name" style="">JASPER HERNANDEZ</div>
+          <div class="role" style="">Southeast Asia Growth Strategy Head</div>
+          <div class="contact" style="font-size: 16px;">[ 0966 4823925 ] · [ jasper@wellxai.com ]</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</deck-stage>
+
+
+
+</body></html>
