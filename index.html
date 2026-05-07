@@ -741,7 +741,26 @@
     position: absolute; right: -200px; bottom: -200px;
     width: 1000px; height: 1000px;
     background: radial-gradient(circle at 40% 40%, var(--orange) 0%, var(--coral) 40%, transparent 70%);
-    opacity: 0.6;
+    opacity: 0.42;
+  }
+  .closing .product-stack {
+    position: absolute; top: 110px; right: 64px;
+    width: 760px; height: 600px;
+    pointer-events: none; z-index: 0;
+  }
+  .closing .product-stack img { position: absolute; display: block; }
+  .closing .product-stack .pf-admin {
+    top: 0; right: 0; width: 580px;
+    border-radius: 6px;
+    filter: drop-shadow(0 24px 48px rgba(15,21,32,0.20));
+  }
+  .closing .product-stack .pf-trio {
+    bottom: 0; right: 90px; width: 520px;
+    filter: drop-shadow(0 28px 56px rgba(15,21,32,0.25));
+  }
+  .closing .product-stack .pf-rewards {
+    bottom: 12px; right: 470px; width: 196px;
+    filter: drop-shadow(0 20px 40px rgba(15,21,32,0.32));
   }
   .closing .bg-gold {
     position: absolute; left: -200px; top: -200px;
@@ -1611,6 +1630,12 @@ in 30 days</div>
   <section class="slide closing" data-deck-last-visible="">
     <div class="bg-gold"></div>
     <div class="bg-shape"></div>
+
+    <div class="product-stack">
+      <img class="pf-admin" src="assets/iwc-admin-portal.png" alt="IWC Admin Portal dashboard">
+      <img class="pf-trio" src="assets/iwc-app-trio.png" alt="IWC member app — health, leaderboard, exercises">
+      <img class="pf-rewards" src="assets/iwc-app-rewards.png" alt="IWC rewards screen">
+    </div>
 
     <div class="closing-grid">
       <div class="top">
