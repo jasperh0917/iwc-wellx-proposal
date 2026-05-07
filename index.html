@@ -744,23 +744,26 @@
     opacity: 0.42;
   }
   .closing .product-stack {
-    position: absolute; top: 110px; right: 64px;
-    width: 760px; height: 600px;
+    position: absolute; top: 90px; right: 50px;
+    width: 780px; height: 640px;
     pointer-events: none; z-index: 0;
   }
   .closing .product-stack img { position: absolute; display: block; }
   .closing .product-stack .pf-admin {
-    top: 0; right: 0; width: 580px;
+    top: 100px; left: 40px; width: 700px;
     border-radius: 6px;
-    filter: drop-shadow(0 24px 48px rgba(15,21,32,0.20));
-  }
-  .closing .product-stack .pf-trio {
-    bottom: 0; right: 90px; width: 520px;
-    filter: drop-shadow(0 28px 56px rgba(15,21,32,0.25));
+    filter: drop-shadow(0 26px 52px rgba(15,21,32,0.22));
+    z-index: 1;
   }
   .closing .product-stack .pf-rewards {
-    bottom: 12px; right: 470px; width: 196px;
-    filter: drop-shadow(0 20px 40px rgba(15,21,32,0.32));
+    top: 50px; left: 0; width: 100px;
+    filter: drop-shadow(0 16px 32px rgba(15,21,32,0.32));
+    z-index: 3;
+  }
+  .closing .product-stack .pf-trio {
+    bottom: 30px; right: 0; width: 360px;
+    filter: drop-shadow(0 24px 48px rgba(15,21,32,0.28));
+    z-index: 2;
   }
   .closing .bg-gold {
     position: absolute; left: -200px; top: -200px;
