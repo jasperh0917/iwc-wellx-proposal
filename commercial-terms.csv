@@ -1,37 +1,34 @@
-WELLX × IWC — COMMERCIAL TERMS,,,,
+WELLX × IWC — COMMERCIAL TERMS (revised),,,,
 Last updated,2026-05-12,,,
 ,,,,
 SECTION 1: PRICING COMPONENTS,,,,
 Component,USD,PHP,Note,
-Membership fee (annual),25000,1500000,Fully waived on 2-year · Unlocks app + admin dashboard + tiered pricing model,
-Per activated member (annual),20,1200,Marginal tiered pricing — see Section 2 · Includes Insurance Manager / embedded telemedicine / xCoins rewards / white-label app,
-Minimum activated member floor (Year 1),15000,,Year 1 minimum · contractual,
+Membership fee (annual),300000,18000000,15000 members · Unlocks app + admin dashboard + tiered pricing model + telemedicine & rewards integrations,
 White Label (one-time),25000,1500000,Brand alignment + custom domain · Waived on 2-year,
 AI Agent co-build,TBD,TBD,Year 1 — scope to be defined jointly,
 AI Agent live,TBD,TBD,Year 2+ — pricing finalized at scope agreement,
 ,,,,
-SECTION 2: TIERED PRICING — MARGINAL RATES BY BAND,,,,
+SECTION 2: TIERED PRICING — MARGINAL RATES BY BAND (above 15000),,,,
 Band,Members in band,USD / member / yr,PHP / member / yr,
-Band 1,First 15000,20,1200,
-Band 2,"15,001 – 30,000",18,1080,
-Band 3,"30,001 – 45,000",16,960,
-Band 4,"45,001 – 60,000",14,840,
-Band 5,"60,001 – 75,000",12,720,
-Band 6,75000+,10,600,
+Band 1,"15,001 – 30,000",18,1080,
+Band 2,"30,001 – 45,000",16,960,
+Band 3,"45,001 – 60,000",14,840,
+Band 4,"60,001 – 75,000",12,720,
+Band 5,75000+,10,600,
 ,,,,
 SECTION 3: ANNUAL REVENUE AT SCALE,,,,
 Activated members,USD revenue,PHP revenue (₱60/USD),Effective $/member,Effective ₱/member
-15000,300000,18000000,20.00,1200
-30000,570000,34200000,19.00,1140
-45000,810000,48600000,18.00,1080
-50000,880000,52800000,17.60,1056
-60000,1020000,61200000,17.00,1020
-75000,1200000,72000000,16.00,960
-100000,1450000,87000000,14.50,870
-150000,1950000,117000000,13.00,780
+"15,000 (floor)",300000,18000000,20.00,1200
+"30,000",570000,34200000,19.00,1140
+"45,000",810000,48600000,18.00,1080
+"50,000",880000,52800000,17.60,1056
+"60,000",1020000,61200000,17.00,1020
+"75,000",1200000,72000000,16.00,960
+"100,000",1450000,87000000,14.50,870
+"150,000",1950000,117000000,13.00,780
 ,,,,
-SECTION 4: CONTRACT VALUE (2-YEAR),,,,
-Activated members,Year 1 USD,Year 2 USD,Total 2-year USD,Total 2-year PHP
+SECTION 4: 2-YEAR CONTRACT VALUE (recurring USD only · White Label waived),,,,
+Activated members,Year 1 USD,Year 2 USD,Total 2-yr USD,Total 2-yr PHP
 "15,000 (floor)",300000,300000,600000,36000000
 "30,000",570000,570000,1140000,68400000
 "50,000",880000,880000,1760000,105600000
@@ -39,8 +36,10 @@ Activated members,Year 1 USD,Year 2 USD,Total 2-year USD,Total 2-year PHP
 "100,000",1450000,1450000,2900000,174000000
 ,,,,
 NOTES,,,,
-- All USD/PHP conversions at ₱60/USD reference rate,,,,
-- Membership fee + White Label both waived on a 2-year contract (saves $50K up front),,,,
-- Floor revenue is take-or-pay: $300K guaranteed even at zero activations above 15K,,,,
-- Per-member rate compresses as activation grows (Band 1 $20 → Band 6 $10),,,,
-- AI Agent pricing is TBD — scope-dependent; not included in revenue projections,,,,
+"- All USD/PHP conversions at ₱60/USD reference rate",,,,
+"- Membership fee is annual recurring; covers first 15,000 activated members + platform unlocks",,,,
+"- Marginal tiered rates apply only to activated members ABOVE 15,000",,,,
+"- White Label is the only line item waived on a 2-year contract (saves $25K)",,,,
+"- 2-year incentive is now $25K (White Label only); was previously $75K when membership fee was also waived",,,,
+"- AI Agent pricing TBD; not included in revenue projections",,,,
+"- Floor revenue is take-or-pay: $300K guaranteed annually regardless of activation count below 15K",,,,
